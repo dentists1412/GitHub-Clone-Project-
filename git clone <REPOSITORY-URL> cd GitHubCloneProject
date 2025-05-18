@@ -1,0 +1,8 @@
+git add .
+git commit -m "Add greetings.txt and README.md"
+git push origin main
+echo "Hello, this is a message from my cloned repository!" > greetings.txt
+echo "This is the description of my repo" > README.md
+git add .
+git commit -m "Add greetings.txt and README.md"
+git push origin main
