@@ -1,0 +1,6 @@
+git merge feature-greeting
+# If conflict happens:
+# Open README.md, resolve manually, then:
+git add .
+git commit -m "Resolve merge conflict between main and feature-greeting"
+git push origin main
